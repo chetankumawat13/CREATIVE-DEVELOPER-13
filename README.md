@@ -1,12 +1,88 @@
-# React + Vite
+# 🎨 Creative Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Creative Developer** portfolio built with **React** and **SCSS**, focused on strong visual identity, clean code, and immersive UI layouts.
 
-Currently, two official plugins are available:
+This project showcases a bold hero section, responsive navigation, and a dynamic grid-based background combined with sticker-style visuals to create a unique creative experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Preview
+`https://creative-developer-13.onrender.com`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Concept
+
+This portfolio is designed to reflect the mindset of a **creative frontend developer** —  
+where **design meets code**, and **interaction matters**.
+
+Key highlights:
+- Large typography hero section
+- Grid-based background system
+- Sticker-style visual elements
+- Clean, minimal dark UI
+- Fully responsive layout
+
+---
+
+## 🛠 Tech Stack
+
+- **React.js**
+- **SCSS (Sass)**
+- **CSS Grid & Flexbox**
+- **Responsive Design**
+- **JavaScript (ES6+)**
+
+---
+
+## 📁 Project Structure
+
+src/
+│── components/
+│ ├── Navbar.jsx
+│ └── Hero.jsx
+│
+│── style/
+│ └── style.scss
+│
+│── App.jsx
+│── main.jsx
+
+
+---
+
+## ✨ Features
+
+### 🔹 Navbar
+- Minimal branding
+- Desktop navigation links
+- Mobile-friendly hamburger menu (UI ready)
+
+### 🔹 Hero Section
+- Bold **CREATIVE DEVELOPER** heading
+- Clear personal description
+- Dynamic grid background generated via JavaScript
+- Sticker-style floating elements
+- Strong visual hierarchy
+
+### 🔹 Responsive Design
+- Desktop
+- Tablet
+- Mobile optimized
+- Adaptive typography & layout
+
+---
+
+## 📐 Grid Logic
+
+The grid background is dynamically generated using JavaScript by calculating:
+- Number of rows
+- Number of columns  
+based on container size and block dimensions.
+
+```js
+const cols = Math.floor(board.clientWidth / blockSize);
+const rows = Math.floor(board.clientHeight / blockSize);
+
+npm install
+npm run dev
