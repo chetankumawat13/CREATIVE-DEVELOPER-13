@@ -235,4 +235,78 @@ html, body {
     right: 30%;
     width: 30%;
   }
+}
+@media (max-width: 1140px) {
+  .main .navbar {
+    padding: 1rem;
+  }
+  .main .navbar .right a {
+    display: none;
+  }
+  .main .navbar .right .icon {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .main .hero .top {
+    gap: 1rem;
+    padding: 0rem 1rem;
+  }
+  .main .hero .top .ttop {
+    gap: 1rem;
+  }
+  .main .hero .top .ttop h1 {
+    font-size: 4.3rem;
+  }
+  .main .hero .top .tbottom p {
+    font-size: 1rem;
+  }
+  .main .hero .bottom {
+    width: 100%;
+    height: 25rem;
+    padding: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0px;
+    margin-top: 12rem;
+  }
+  .main .hero .bottom .i1 {
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+  }
+  .main .hero .bottom .i2 {
+    bottom: 70%;
+    left: -5%;
+    width: 55%;
+  }
+  .main .hero .bottom .i7 {
+    top: -50%;
+    left: 50%;
+    width: 50%;
+  }
+  .main .hero .bottom .i5 {
+    top: 30%;
+    left: -7%;
+    width: 45%;
+  }
+  .main .hero .bottom .i4 {
+    top: 0%;
+    right: -10%;
+    width: 55%;
+  }
+  .main .hero .bottom .i3 {
+    bottom: 0%;
+    right: -15%;
+    width: 40%;
+  }
+  .main .hero .bottom .i6 {
+    top: 60%;
+    right: 20%;
+    width: 35%;
+  }
+  .main .hero .bottom .i8 {
+    top: 0%;
+    right: 30%;
+    width: 30%;
+  }
 }/*# sourceMappingURL=style.css.map */
