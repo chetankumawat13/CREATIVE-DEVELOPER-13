@@ -54,6 +54,9 @@ html, body {
                     color: #66fcf1;
                 }
             }
+            .icon{
+                display: none;
+            }
         }
     }
     .hero{
@@ -64,12 +67,12 @@ html, body {
         justify-content: center;
         // align-items: center;
         margin-top: 2rem;
-        padding: 0 2rem;
 
         .top{
             width: 100%;
             display: flex;
             flex-direction: column;
+            padding: 0 2rem;
             .ttop{
                 display: flex;
                 align-items: center;
@@ -185,5 +188,89 @@ html, body {
 }
 
 
+@media (max-width: 768px) {
+    .main{
+        .navbar{
+            padding: 1rem;
+            .right{
+                a{
+                    display: none;
+                }
+                .icon{
+                    display: block;
+                    font-size: 1.5rem;
+                    cursor: pointer;
+                }
+            }
+        }
+        .hero{
+            .top{
+                gap: 0.8rem;
+                padding: 0rem 1rem;
+                .ttop{
+                    gap: 0.8rem;
+                    h1{
+                        font-size: 1.9rem;
+                    }
+                }
+                .tbottom{
+                    p{
+                        font-size: 0.8rem;
+                    }
+                }
+
+                 }
+            .bottom{
+                width: 100%;
+                height: 17rem;
+                padding: 0;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0px;
+                margin-top: 5rem;
+                .i1{
+                    bottom: 0;
+                    left: 10%;
+                    width: 100%;
+                }
+                .i2{
+                    bottom: 70%;
+                    left: -5%;
+                    width: 55%;
+                }
+                .i7{
+                    top: -40%;
+                    left: 50%;
+                    width: 50%;
+                }
+                .i5{
+                    top: 30%;
+                    left: -7%;
+                    width: 45%;
+                }
+                .i4{
+                    top: 0%;
+                    right: -10%;
+                    width: 55%;
+                }
+                .i3{
+                    bottom: 0%;
+                    right: -15%;
+                    width: 40%;
+                }
+                .i6{
+                    top: 60%;
+                    right: 20%;
+                    width: 35%;
+                }
+                .i8{
+                    top: 0%;
+                    right: 30%;
+                    width: 30%;
+                }
+            }
+        }
+    }
+    
+}
 
 

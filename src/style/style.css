@@ -53,6 +53,9 @@ html, body {
 .main .navbar .right a:hover {
   color: #66fcf1;
 }
+.main .navbar .right .icon {
+  display: none;
+}
 .main .hero {
   width: 100%;
   display: flex;
@@ -60,12 +63,12 @@ html, body {
   gap: 2.4rem;
   justify-content: center;
   margin-top: 2rem;
-  padding: 0 2rem;
 }
 .main .hero .top {
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 0 2rem;
 }
 .main .hero .top .ttop {
   display: flex;
@@ -157,4 +160,79 @@ html, body {
   bottom: -28%;
   right: 5%;
   width: 35%;
+}
+
+@media (max-width: 768px) {
+  .main .navbar {
+    padding: 1rem;
+  }
+  .main .navbar .right a {
+    display: none;
+  }
+  .main .navbar .right .icon {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .main .hero .top {
+    gap: 0.8rem;
+    padding: 0rem 1rem;
+  }
+  .main .hero .top .ttop {
+    gap: 0.8rem;
+  }
+  .main .hero .top .ttop h1 {
+    font-size: 1.9rem;
+  }
+  .main .hero .top .tbottom p {
+    font-size: 0.8rem;
+  }
+  .main .hero .bottom {
+    width: 100%;
+    height: 17rem;
+    padding: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0px;
+    margin-top: 5rem;
+  }
+  .main .hero .bottom .i1 {
+    bottom: 0;
+    left: 10%;
+    width: 100%;
+  }
+  .main .hero .bottom .i2 {
+    bottom: 70%;
+    left: -5%;
+    width: 55%;
+  }
+  .main .hero .bottom .i7 {
+    top: -40%;
+    left: 50%;
+    width: 50%;
+  }
+  .main .hero .bottom .i5 {
+    top: 30%;
+    left: -7%;
+    width: 45%;
+  }
+  .main .hero .bottom .i4 {
+    top: 0%;
+    right: -10%;
+    width: 55%;
+  }
+  .main .hero .bottom .i3 {
+    bottom: 0%;
+    right: -15%;
+    width: 40%;
+  }
+  .main .hero .bottom .i6 {
+    top: 60%;
+    right: 20%;
+    width: 35%;
+  }
+  .main .hero .bottom .i8 {
+    top: 0%;
+    right: 30%;
+    width: 30%;
+  }
 }/*# sourceMappingURL=style.css.map */

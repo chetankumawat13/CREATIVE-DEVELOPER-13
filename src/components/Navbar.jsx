@@ -9,6 +9,9 @@ const Navbar = () => {
             <h4>Chetan</h4>
         </div>
         <div className="right">
+            <div className="icon">
+            <i className="ri-menu-2-line"></i>
+            </div>
             <a href="">Work</a>
             <a href="">About</a>
             <a href="">Blog</a>
